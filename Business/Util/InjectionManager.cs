@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using Ninject.Modules;
 using Ninject;
-using Business.Config;
+using com.enestekle.Business.Config;
 
-namespace Business.Util
+namespace com.enestekle.Business.Util
 {
     public class InjectionManager
     {
