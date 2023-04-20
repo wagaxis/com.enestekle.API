@@ -5,7 +5,6 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>4092498f-ac3b-4067-a858-f27b49b2aaa7</UserSecretsId>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,9 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Business\Business.csproj" />
-    <ProjectReference Include="..\Entity\Entity.csproj" />
-    <ProjectReference Include="..\Surrogate\Surrogate.csproj" />
+    <ProjectReference Include="..\Business\com.enestekle.Business.csproj" />
+    <ProjectReference Include="..\Entity\com.enestekle.Entity.csproj" />
+    <ProjectReference Include="..\Surrogate\com.enestekle.Surrogate.csproj" />
   </ItemGroup>
 
 </Project>

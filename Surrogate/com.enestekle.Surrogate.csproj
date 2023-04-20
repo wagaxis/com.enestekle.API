@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,12 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Custom\" />
-    <Folder Include="Maps\" />
+    <Folder Include="CommonModel\" />
+    <Folder Include="ResponseModel\" />
+    <Folder Include="RequestModel\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Entity\com.enestekle.Entity.csproj" />
   </ItemGroup>
 
 </Project>

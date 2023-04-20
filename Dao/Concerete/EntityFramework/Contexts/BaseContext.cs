@@ -1,4 +1,4 @@
-﻿namespace Dao.Concerete.EntityFramework.Contexts
+﻿namespace com.enestekle.Dao.Concerete.EntityFramework.Contexts
 {
     public class BaseContext
     {

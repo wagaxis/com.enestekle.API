@@ -1,6 +1,6 @@
-﻿using Core.Abstract;
+﻿using com.enestekle.Core.Abstract;
 
-namespace Entity.Domain
+namespace com.enestekle.Entity.Domain
 {
     public class RandomModel : IEntity   
     {

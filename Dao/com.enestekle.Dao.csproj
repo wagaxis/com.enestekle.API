@@ -7,13 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CommonModel\" />
-    <Folder Include="ResponseModel\" />
-    <Folder Include="RequestModel\" />
+    <Folder Include="Abstract\" />
+    <Folder Include="Concerete\NHibernate\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Entity\Entity.csproj" />
+    <ProjectReference Include="..\Entity\com.enestekle.Entity.csproj" />
+    <ProjectReference Include="..\Surrogate\com.enestekle.Surrogate.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
-﻿using Business.Abstract;
+﻿using com.enestekle.Business.Abstract;
 using SixLabors.ImageSharp.Formats.Jpeg;
 
-namespace Business.Concerete
+namespace com.enestekle.Business.Concerete
 {
     public partial class ImageBusiness : IImage_Service
     {

@@ -1,12 +1,10 @@
-﻿using Entity.Domain;
-using Microsoft.AspNetCore.Authorization;
+﻿using com.enestekle.Entity.Domain;
 using Microsoft.AspNetCore.Mvc;
 
-namespace API.Controllers
+namespace com.enestekle.API.Controllers
 {
-    [Route("[controller]/[action]")]
+    [Route("api/[controller]")]
     [ApiController]
-    [AllowAnonymous]
     public class ForgetController : ControllerBase
     {
         [HttpGet]
