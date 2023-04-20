@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Business.Config
+namespace com.enestekle.Business.Config
 {
     public class MapperConfig
     {

@@ -13,18 +13,18 @@ builder.Services.Configure<IISServerOptions>(options =>
 });
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+/* --- Custom --- */
+app.UseRouting();
+app.UseAuthorization();
+app.UseEndpoints(endPoints =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    endPoints.MapControllers();
+});
+/* --- Custom --- */
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
